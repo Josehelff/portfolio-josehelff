@@ -187,25 +187,24 @@ export default function Home() {
             <h2 className="text-foreground mb-12">Projetos em Destaque</h2>
           </ScrollReveal>
           
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Project 1 */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 - Bortec Sistema */}
             <ScrollReveal delay={100}>
               <Card className="overflow-hidden border border-border hover:border-primary/50 transition group">
                 <div className="bg-gradient-to-br from-primary/10 to-accent/10 p-8 h-48 flex items-center justify-center">
                   <Code2 className="w-16 h-16 text-primary/30 group-hover:text-primary/50 transition" />
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-primary font-semibold text-lg">API de Gerenciamento de Tarefas</h3>
+                  <h3 className="text-primary font-semibold text-lg">Bortec Sistema</h3>
                   <p className="text-muted-foreground text-sm">
-                    API REST completa com funcionalidades de CRUD, autenticação de usuários e autorização baseada em perfis.
+                    Sistema completo de gestão de estoque e pedidos com backend em Spring Boot e interface moderna em React.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Java</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Java 21</span>
                     <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Spring Boot</span>
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">PostgreSQL</span>
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">JWT</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">React</span>
                   </div>
-                  <a href="https://github.com/Josehelff" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Josehelff/bortec-sistema" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm" className="w-full gap-2 mt-4">
                       <ExternalLink className="w-4 h-4" />
                       Ver no GitHub
@@ -215,24 +214,49 @@ export default function Home() {
               </Card>
             </ScrollReveal>
 
-            {/* Project 2 */}
+            {/* Project 2 - Veterinário System */}
             <ScrollReveal delay={200}>
               <Card className="overflow-hidden border border-border hover:border-primary/50 transition group">
                 <div className="bg-gradient-to-br from-accent/10 to-primary/10 p-8 h-48 flex items-center justify-center">
                   <Code2 className="w-16 h-16 text-accent/30 group-hover:text-accent/50 transition" />
                 </div>
                 <div className="p-6 space-y-4">
-                  <h3 className="text-primary font-semibold text-lg">Sistema de Autenticação</h3>
+                  <h3 className="text-primary font-semibold text-lg">Veterinário System</h3>
                   <p className="text-muted-foreground text-sm">
-                    Microsserviço de autenticação e autorização com Spring Security e JWT, pronto para ser consumido por outras aplicações.
+                    Sistema completo para veterinários com controle de animais, inseminações, prenhezes e cálculos automáticos.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Java</span>
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Spring Security</span>
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">OAuth2</span>
-                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Microserviços</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Spring Boot</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">PostgreSQL</span>
                   </div>
-                  <a href="https://github.com/Josehelff" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Josehelff/veterinario-system" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="w-full gap-2 mt-4">
+                      <ExternalLink className="w-4 h-4" />
+                      Ver no GitHub
+                    </Button>
+                  </a>
+                </div>
+              </Card>
+            </ScrollReveal>
+
+            {/* Project 3 - Copa Shirt */}
+            <ScrollReveal delay={300}>
+              <Card className="overflow-hidden border border-border hover:border-primary/50 transition group">
+                <div className="bg-gradient-to-br from-primary/10 to-accent/10 p-8 h-48 flex items-center justify-center">
+                  <Code2 className="w-16 h-16 text-primary/30 group-hover:text-primary/50 transition" />
+                </div>
+                <div className="p-6 space-y-4">
+                  <h3 className="text-primary font-semibold text-lg">Copa Shirt</h3>
+                  <p className="text-muted-foreground text-sm">
+                    Plataforma de e-commerce para venda de camisetas com painel administrativo e integração com redes sociais.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">TypeScript</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">React</span>
+                    <span className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full">Node.js</span>
+                  </div>
+                  <a href="https://github.com/Josehelff/copa_shirt" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm" className="w-full gap-2 mt-4">
                       <ExternalLink className="w-4 h-4" />
                       Ver no GitHub
