@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, Award } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, Award, MessageCircle } from "lucide-react";
 import { ScrollReveal } from "@/components/ScrollReveal";
 
 export default function Home() {
@@ -354,10 +354,16 @@ export default function Home() {
                   GitHub
                 </Button>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/josé-helff-185b15205/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="lg" className="gap-2">
                   <Linkedin className="w-5 h-5" />
                   LinkedIn
+                </Button>
+              </a>
+              <a href="https://wa.me/5543988670356" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="lg" className="gap-2">
+                  <MessageCircle className="w-5 h-5" />
+                  WhatsApp
                 </Button>
               </a>
             </div>
